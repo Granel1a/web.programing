@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+body {
+  margin-left: 290px;
+  margin-right: 290px;
+}
+.html {
+  font-weight: 600;
+}
+.htmlu {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+.tegs {
+  color: brown;
+  background-color: rgb(250, 236, 230);
+}
+.serif2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.serif {
+  font-style: italic;
+}
+.tegs1 {
+  color: brown;
+}
+pre {
+  background-color: rgb(250, 236, 230);
+}
+.one {
+  color: black;
+}
+.t {
+  color: rgb(29, 114, 114);
+  background-color: rgb(232, 225, 216);
+}
