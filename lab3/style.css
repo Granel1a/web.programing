@@ -1,0 +1,64 @@
+.back {
+  background: rgb(189, 86, 86);
+  color: azure;
+  padding: 15px 2%;
+}
+.list {
+  background: rgb(127, 24, 24);
+  list-style-position: inside;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.word {
+  background: red;
+  padding: 0 5px;
+}
+h2 {
+  text-align: center;
+}
+.ul-1 {
+  list-style-position: inside;
+}
+.ul-1 li::after {
+  padding-left: 10px;
+  content: url(/Lab3/img/x.png);
+}
+.ul-1 li:nth-child(odd) {
+  background-color: rgb(0, 221, 221);
+}
+.ul-1 li:nth-child(even) {
+  background-color: rgb(0, 172, 172);
+}
+
+.ul-1 li.uncompleted {
+  list-style-image: url(/Lab3/img/unchecked_16.png);
+}
+.ul-1 li.completed {
+  list-style-image: url(/Lab3/img/checked_16.png);
+  background-color: rgb(224, 224, 224);
+  text-decoration: line-through;
+}
+.uncompleted {
+  padding: 10px 30px;
+}
+.completed {
+  padding: 10px 30px;
+}
+dt {
+  font-style: italic;
+  margin: 30px 0px;
+}
+.grey {
+  color: grey;
+  margin: 4px 0px;
+  padding: 0;
+}
+.blue {
+  margin: 4px 0px;
+  padding: 0;
+  color: blue;
+}
+p {
+  margin: 3px 0px;
+  padding-left: 24px;
+}
